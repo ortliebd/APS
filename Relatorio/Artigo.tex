@@ -1,0 +1,43 @@
+\documentclass[12pt]{article}
+
+\usepackage{sbc-template}
+\usepackage{graphicx,url}
+\usepackage[utf8]{inputenc}
+\usepackage[brazil]{babel}
+\usepackage{minted}
+\usepackage[num]{abntex2cite}
+\citebrackets[]
+\sloppy
+
+\title{Análise Empírica de Algoritmos de Ordenação}
+
+\author{Douglas Juares Ortlieb\inst{1} \inst{2}}
+
+\address{Universidade Tecnológica Federal do Paraná (UTFPR)\\
+  Caixa Postal 271 -- 87301-899 -- Campo Mourão -- PR -- Brasil
+\nextinstitute
+  Departamento de Ciência da Computação (DACOM)
+  \email{ortliebd@alunos.utfpr.edu.br}
+}
+
+\begin{document} 
+
+\maketitle
+
+\begin{abstract}
+  This paper introduce the empirical analysis of the foremost sorting algorithms, the maximum subarray problem -- by recursive implementation -- and the binary search algorithm. Comparing the achieved results with the expected behavior given by asymptotic analysis of the same, lastly, does a comparation between the execution time of the sorting algorithms.
+\end{abstract}
+     
+\begin{resumo}
+  Este artigo apresenta a análise empírica dos principais algoritmos de ordenação, do problema da busca do subvetor máximo -- utilizando implementação recursiva -- e do algoritmo de busca binária. Comparando os resulados obtidos com o comportamento esperado dado pela análise assintótica dos mesmos, por fim, faz uma comparação entre o tempo de execução dos algoritmos de ordenação.
+\end{resumo}
+
+\input{Introducao}
+\input{Metodologia}
+\input{Resultados}
+\input{Conclusao}
+
+\bibliographystyle{abntex2-num}
+\bibliography{referencias}
+
+\end{document}

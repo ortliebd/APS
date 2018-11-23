@@ -1,0 +1,44 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+cp}{\PYGZsh{}include} \PYG{c+cpf}{\PYGZlt{}iostream\PYGZgt{}}
+\PYG{c+cp}{\PYGZsh{}include} \PYG{c+cpf}{\PYGZlt{}vector\PYGZgt{}}
+\PYG{c+cp}{\PYGZsh{}include} \PYG{c+cpf}{\PYGZlt{}time.h\PYGZgt{}}
+\PYG{c+cp}{\PYGZsh{}include} \PYG{c+cpf}{\PYGZlt{}stdio.h\PYGZgt{}}
+
+\PYG{k}{using} \PYG{k}{namespace} \PYG{n}{std}\PYG{p}{;}
+
+\PYG{k+kt}{long} \PYG{k+kt}{long} \PYG{k+kt}{int} \PYG{n}{\PYGZus{}inner\PYGZus{}loop} \PYG{o}{=} \PYG{l+m+mi}{0}\PYG{p}{;}
+
+\PYG{k+kt}{void} \PYG{n+nf}{bubbleSort} \PYG{p}{(}\PYG{n}{vector}\PYG{o}{\PYGZlt{}}\PYG{k+kt}{int}\PYG{o}{\PYGZgt{}} \PYG{o}{*}\PYG{p}{);}
+
+\PYG{k+kt}{int} \PYG{n+nf}{main} \PYG{p}{(}\PYG{k+kt}{int} \PYG{n}{argc}\PYG{p}{,} \PYG{k+kt}{char} \PYG{o}{**}\PYG{n}{argv}\PYG{p}{)} \PYG{p}{\PYGZob{}}
+  \PYG{k+kt}{clock\PYGZus{}t} \PYG{n}{execution\PYGZus{}time}\PYG{p}{;}
+
+  \PYG{k+kt}{int} \PYG{n}{in}\PYG{p}{;}
+
+  \PYG{n}{vector}\PYG{o}{\PYGZlt{}}\PYG{k+kt}{int}\PYG{o}{\PYGZgt{}} \PYG{n}{vetor}\PYG{p}{;}
+
+  \PYG{k}{while} \PYG{p}{(}\PYG{n}{cin} \PYG{o}{\PYGZgt{}\PYGZgt{}} \PYG{n}{in}\PYG{p}{)} \PYG{p}{\PYGZob{}}
+    \PYG{n}{vetor}\PYG{p}{.}\PYG{n}{push\PYGZus{}back}\PYG{p}{(}\PYG{n}{in}\PYG{p}{);}
+  \PYG{p}{\PYGZcb{}}
+
+  \PYG{n}{execution\PYGZus{}time} \PYG{o}{=} \PYG{n}{clock} \PYG{p}{();}
+  \PYG{n}{bubbleSort}\PYG{p}{(}\PYG{o}{\PYGZam{}}\PYG{n}{vetor}\PYG{p}{);}
+  \PYG{n}{execution\PYGZus{}time} \PYG{o}{=} \PYG{n}{clock}\PYG{p}{()} \PYG{o}{\PYGZhy{}} \PYG{n}{execution\PYGZus{}time}\PYG{p}{;}
+
+  \PYG{n}{cout} \PYG{o}{\PYGZlt{}\PYGZlt{}} \PYG{p}{((}\PYG{k+kt}{float}\PYG{p}{)}\PYG{n}{execution\PYGZus{}time}\PYG{p}{)}\PYG{o}{/}\PYG{n}{CLOCKS\PYGZus{}PER\PYGZus{}SEC} \PYG{o}{\PYGZlt{}\PYGZlt{}} \PYG{l+s}{\PYGZdq{}}\PYG{l+s+se}{\PYGZbs{}n}\PYG{l+s}{\PYGZdq{}}\PYG{p}{;}
+  \PYG{n}{cout} \PYG{o}{\PYGZlt{}\PYGZlt{}} \PYG{n}{\PYGZus{}inner\PYGZus{}loop} \PYG{o}{\PYGZlt{}\PYGZlt{}} \PYG{l+s}{\PYGZdq{}}\PYG{l+s+se}{\PYGZbs{}n}\PYG{l+s}{\PYGZdq{}}\PYG{p}{;}
+  
+  \PYG{k}{return} \PYG{l+m+mi}{0}\PYG{p}{;}
+\PYG{p}{\PYGZcb{}}
+
+\PYG{k+kt}{void} \PYG{n+nf}{bubbleSort} \PYG{p}{(}\PYG{n}{vector}\PYG{o}{\PYGZlt{}}\PYG{k+kt}{int}\PYG{o}{\PYGZgt{}} \PYG{o}{*}\PYG{n}{v}\PYG{p}{)} \PYG{p}{\PYGZob{}}
+  \PYG{k}{for} \PYG{p}{(}\PYG{k+kt}{int} \PYG{n}{i} \PYG{o}{=} \PYG{l+m+mi}{0}\PYG{p}{;} \PYG{n}{i} \PYG{o}{\PYGZlt{}} \PYG{n}{v}\PYG{o}{\PYGZhy{}\PYGZgt{}}\PYG{n}{size}\PYG{p}{()} \PYG{o}{\PYGZhy{}} \PYG{l+m+mi}{1}\PYG{p}{;} \PYG{n}{i}\PYG{o}{++}\PYG{p}{)}
+    \PYG{k}{for} \PYG{p}{(}\PYG{k+kt}{int} \PYG{n}{j} \PYG{o}{=} \PYG{l+m+mi}{0}\PYG{p}{;} \PYG{n}{j} \PYG{o}{\PYGZlt{}} \PYG{n}{v}\PYG{o}{\PYGZhy{}\PYGZgt{}}\PYG{n}{size}\PYG{p}{()} \PYG{o}{\PYGZhy{}} \PYG{n}{i} \PYG{o}{\PYGZhy{}} \PYG{l+m+mi}{1}\PYG{p}{;} \PYG{n}{j}\PYG{o}{++}\PYG{p}{)} \PYG{p}{\PYGZob{}}
+      \PYG{k}{if} \PYG{p}{(}\PYG{n}{v}\PYG{o}{\PYGZhy{}\PYGZgt{}}\PYG{n}{at}\PYG{p}{(}\PYG{n}{j}\PYG{p}{)} \PYG{o}{\PYGZgt{}} \PYG{n}{v}\PYG{o}{\PYGZhy{}\PYGZgt{}}\PYG{n}{at}\PYG{p}{(}\PYG{n}{j}\PYG{o}{+}\PYG{l+m+mi}{1}\PYG{p}{))}
+	\PYG{n}{swap} \PYG{p}{(}\PYG{n}{v}\PYG{o}{\PYGZhy{}\PYGZgt{}}\PYG{n}{at}\PYG{p}{(}\PYG{n}{j}\PYG{p}{),} \PYG{n}{v}\PYG{o}{\PYGZhy{}\PYGZgt{}}\PYG{n}{at}\PYG{p}{(}\PYG{n}{j}\PYG{o}{+}\PYG{l+m+mi}{1}\PYG{p}{));}
+      \PYG{n}{\PYGZus{}inner\PYGZus{}loop}\PYG{o}{++}\PYG{p}{;}
+    \PYG{p}{\PYGZcb{}}
+\PYG{p}{\PYGZcb{}}
+	  
+		
+\end{Verbatim}

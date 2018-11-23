@@ -1,0 +1,49 @@
+\providecommand{\abntreprintinfo}[1]{%
+ \citeonline{#1}}
+\begin{thebibliography}{}
+\providecommand{\abntrefinfo}[3]{}
+\providecommand{\abntbstabout}[1]{}
+\abntbstabout{v-1.9.6 }
+
+\bibitem{cormen:01}
+\abntrefinfo{Cormen}{CORMEN}{2002}
+{CORMEN, T.~H. \emph{Algoritmos: teoria e prática}. 2. ed. Rio de Janeiro:
+  Elsevier, 2002.
+ISBN 85-352-0926-3.}
+
+\bibitem{foleiss:01}
+\abntrefinfo{Foleiss}{FOLEISS}{2017}
+{FOLEISS, J.~H. \emph{Análise de Algortimos -- Aula 10}. 2017.
+Material de aula.}
+
+\bibitem{mcconnell:01}
+\abntrefinfo{McConnell}{MCCONNELL}{2001}
+{MCCONNELL, J.~J. \emph{Analysis of Algorithms: An Active Learning Approach}.
+  Subury: Jones and Bartlett Publishers, 2001.
+ISBN 0-7637-1634-0.}
+
+\bibitem{geeks:01}
+\abntrefinfo{Nayal}{NAYAL}{2017}
+{NAYAL, C. \emph{Bubble Sort -- {GeeksforGeeks}{,} A computer science portal
+  for geeks}. 2017.
+Dispon{\'\i}vel em: \url{https://www.geeksforgeeks.org/bubble-sort/}.}
+
+\bibitem{deitel:01}
+\abntrefinfo{Deitel e Deitel}{DEITEL; DEITEL}{2013}
+{DEITEL, P.; DEITEL, H. \emph{C++ How to Program}. 9. ed. New Jersey: Pearson,
+  2013.
+ISBN 0-13-337871-3.}
+
+\bibitem{rosetta:01}
+\abntrefinfo{contríbudores}{CONTRíBUDORES}{2018}
+{CONTRíBUDORES, R.~C. \emph{Sorting algorithms/Heapsort}. 2018.
+Dispon{\'\i}vel em:
+  \url{https://rosettacode.org/wiki/Sorting\_algorithms/Heapsort}.}
+
+\bibitem{geeks:02}
+\abntrefinfo{Jain}{JAIN}{2016}
+{JAIN, P. \emph{Quick Sort -- {GeeksforGeeks}{,} A computre science portal for
+  geeks}. 2016.
+Dispon{\'\i}vel em: \url{https://www.geeksforgeeks.org/quick-sort/}.}
+
+\end{thebibliography}

@@ -1,0 +1,18 @@
+\section{Metodologia} \label{sec:metodologia}
+A metodologia deste trabalho consistiu na implementação e análise do tempo de execução de sete algoritmos de ordenação, sendo eles: bubble sort, bubble sort com otimizações, insertion sort, selection sort, merge sort, heap sort e quick sort, um algoritmo de busca binária e um algoritmo para a busca do subvetor máximo, todos escritos em linguagem C++.
+
+Para os algoritmos de ordenação e busca do subvetor máximo foram utilizados onze conjuntos distindos e aleatórios de dados classificados pelo tamanho -- 10 mil, 100 mil, 200 mil, 300 mil, 400 mil, 500 mil, 600 mil, 700 mil, 800 mil, 900 mil e 1 milhão de elementos -- todos do tipo inteiro e com valores contidos entre $[-999, 999]$.
+
+Para o algoritmo de busca binária, foram utilizadas as mesmas entradas anteriores, porém ordenadas, o algoritmo foi executado cinco vezes para cada entrada e os dois maiores e menores valores foram descartados, os elementos chave para a busca também foram gerados de forma aleatória e estavam contidos entre $[-1999, 1999]$, permitindo assim, que valores não existentes nos vetores fossem pesquisados.
+
+Para medir o tempo de execução de cada algoritmo foi utilizada a função \textit{clock\_t clock (void)} presente na biblioteca \textit{time.h}\footnote{Disponível na linguagem C e C++} e o macro \textit{CLOCKS\_PER\_SEC}. A função foi chamada antes e depois do algoritmo analizado, calculando a diferença do tempo final menos o tempo inicial e dividindo pelo macro, obtemos o tempo de execução do algoritmo ou seja,
+$(tempo_{final} - tempo_{inicial}) / CLOCKS\_PER\_SEC$.
+
+Para calular o número de iterações realizadas por cada algoritmo, foi criada uma variável auxiliar e feito o seu incremento nos trechos mais significativos de cada código, ficando, de maneira geral, contida nos laços mais internos de cada funções.
+\subsection{Experimentos}
+Cada algoritmos de ordenação foi executado onze vezes com entrada de tamanhos diferentes, totalizando 110 execuções. O algoritmo de busca do subvetor máximo foi executado uma vez para cada uma das onze entras, totalizando 11 execuções. O algoritmo de busca binária foi executado cinco vezes para cada entrada, totalizando 55 execuções.
+
+Para realizar o experimento foi utilizado um notebook com processador Intel Core i5-6200u 2.8 GHz, 12 GB de memória RAM com sistema operacional Manjaro Linux.\footnote{Versão do kernel: 4.14.78-1-MANJARO}
+%%% Local Variables:
+%%% TeX-master: "Artigo"
+%%% End:
