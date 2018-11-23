@@ -1,0 +1,1204 @@
+QtiPlot 0.9.8 project file
+<scripting-lang>	muParser
+<windows>	22
+<table>
+quick	11	5	06/11/18 16:34
+geometry	0	6	445	379	
+header	Tamanho da entrada[X]	Tempo (s)[Y]	Análise empírica[Y]	Análise assintótica[Y]	n2[Y]
+ColWidth	100	100	100	131	100	
+<com>
+</com>
+ColType	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13
+ReadOnlyColumn	0	0	0	0	0
+HiddenColumn	0	0	0	0	0
+Comments						
+WindowLabel		2
+<data>
+0	10000	0.006537	161251	132877	49995000
+1	100000	0.191493	3863428	1660964	4999950000
+2	200000	0.613017	12995831	3521928	19999900000
+3	300000	1.24699	26572475	5458380	44999850000
+4	400000	2.15519	45440679	7443856	79999800000
+5	500000	3.31075	69408504	9465784	124999750000
+6	600000	4.7233	98323298	11516761	179999700000
+7	700000	6.36517	132657642	13591896	244999650000
+8	800000	8.28951	171872405	15687712	319999600000
+9	900000	10.1445	215424617	17801608	404999550000
+10	1000000	12.5233	264973144	19931568	499999500000
+</data>
+</table>
+<table>
+merge	11	4	06/11/18 16:45
+geometry	50	50	445	379	
+header	Tamanho da entrada[X]	Tempo (s)[Y]	Análise empírica[Y]	Análise assintótica[Y]
+ColWidth	100	100	100	100	
+<com>
+</com>
+ColType	0;0/13	0;0/13	0;0/13	0;0/13
+ReadOnlyColumn	0	0	0	0
+HiddenColumn	0	0	0	0
+Comments					
+WindowLabel		2
+<data>
+0	10000	0.00514	133616	132877
+1	100000	0.061606	1668928	1660964
+2	200000	0.139635	3537856	3521928
+3	300000	0.202347	5475712	5458380
+4	400000	0.275845	7475712	7443856
+5	500000	0.351582	9475712	9465784
+6	600000	0.44754	11551424	11516761
+7	700000	0.502342	13651424	13591896
+8	800000	0.564517	15751424	15687712
+9	900000	0.64256	17851424	17801608
+10	1000000	0.725371	19951424	19931568
+</data>
+</table>
+<table>
+heap	11	4	06/11/18 16:49
+geometry	0	6	445	379	
+header	Tamanho da entrada[X]	Tempo (s)[Y]	Análise Empírica[Y]	Análise matemática[Y]
+ColWidth	100	100	100	100	
+<com>
+</com>
+ColType	0;0/13	0;0/13	0;0/13	0;0/13
+ReadOnlyColumn	0	0	0	0
+HiddenColumn	0	0	0	0
+Comments					
+WindowLabel		2
+<data>
+0	10000	0.013394	127665	132877
+1	100000	0.164622	1609450	1660964
+2	200000	0.334151	3419027	3521928
+3	300000	0.526253	5298772	5458380
+4	400000	0.71195	7237406	7443856
+5	500000	0.910638	9196367	9465784
+6	600000	1.11157	11198547	11516761
+7	700000	1.3119	13229117	13591896
+8	800000	1.54323	15274080	15687712
+9	900000	1.73692	17328574	17801608
+10	1000000	1.9632	19391928	19931568
+</data>
+</table>
+<table>
+insertion	11	4	06/11/18 16:53
+geometry	50	50	445	220	
+header	Tamanho da entrada[X]	Tempo (s)[Y]	Análise Empírica[Y]	Análise assintótica[Y]
+ColWidth	100	100	100	163	
+<com>
+</com>
+ColType	0;0/13	0;0/13	0;0/13	0;0/13
+ReadOnlyColumn	0	0	0	0
+HiddenColumn	0	0	0	0
+Comments					
+WindowLabel		2
+<data>
+0	10000	0.012901	127665	132877
+1	100000	0.163845	1609450	1660964
+2	200000	0.333218	3419027	3521928
+3	300000	0.52846	5298772	5458380
+4	400000	0.744821	7237406	7443856
+5	500000	1.02887	9196367	9465784
+6	600000	1.32023	11198547	11516761
+7	700000	1.46515	13229117	13591896
+8	800000	1.60147	15274080	15687712
+9	900000	1.86568	17328574	17801608
+10	1000000	2.15379	19391928	19931568
+</data>
+</table>
+<table>
+bubble_optimized	11	4	06/11/18 17:00
+geometry	1073	112	445	379	active
+header	Tamanho da entrada[X]	Tempo (s)[Y]	Análise empírica[Y]	Análise assintótica[Y]
+ColWidth	100	134	139	100	
+<com>
+</com>
+ColType	0;0/13	0;0/13	0;0/13	0;0/13
+ReadOnlyColumn	0	0	0	0
+HiddenColumn	0	0	0	0
+Comments					
+WindowLabel		2
+<data>
+0	10000	2.68096	49989950	100000000
+1	100000	251.87	4999928264	10000000000
+2	200000	993.745	19999233565	40000000000
+3	300000	2239.79	44999709285	90000000000
+4	400000	3998.75	79999592954	160000000000
+5	500000	7454.193316446	124993373290.7	250000000000
+6	600000	10856.23858086	179971790202	360000000000
+7	700000	14903.44889694	244921834784.1	490000000000
+8	800000	19590.8081269	319826749321.3	640000000000
+9	900000	24909.12540351	404666027286.6	810000000000
+10	1000000	30845.03513004	499415413341.6	1000000000000
+</data>
+</table>
+<table>
+bubble	21	4	06/11/18 17:04
+geometry	495	133	609	418	
+header	Tamanho da entrada[X]	Tempo (s)[Y]	Análise empírica[Y]	Análise assintótica[Y]
+ColWidth	100	134	244	166	
+<com>
+</com>
+ColType	0;0/13	0;0/13	0;0/14	0;0/13
+ReadOnlyColumn	0	0	0	0
+HiddenColumn	0	0	0	0
+Comments					
+WindowLabel		2
+<data>
+0	10000	2.58129	49995000	100000000
+1	100000	254.009	4999950000	10000000000
+2	200000	998.816	19999900000	40000000000
+3	300000	2242.26	44999850000	90000000000
+4	400000	4021.78	79999800000	160000000000
+5	500000	7651.767466057	124999750000	250000000000
+6	600000	11500.52411161	179999700000	360000000000
+7	700000	16479.80043342	244999650000	490000000000
+8	800000	22840.82925692	319999600000	640000000000
+9	900000	0	404999550000	810000000000
+10	1000000	0	499999500000	1000000000000
+</data>
+</table>
+<table>
+selection	11	4	06/11/18 17:06
+geometry	374	332	445	220	
+header	Tamanho da entrada[X]	Tempo (s)[Y]	Análise empírica[Y]	Análise assintótica[Y]
+ColWidth	100	134	152	166	
+<com>
+</com>
+ColType	0;0/13	0;0/13	0;0/13	0;0/13
+ReadOnlyColumn	0	0	0	0
+HiddenColumn	0	0	0	0
+Comments					
+WindowLabel		2
+<data>
+0	10000	1.43931	49995000	100000000
+1	100000	138.078	4999950000	10000000000
+2	200000	544.441	19999900000	40000000000
+3	300000	1228	44999850000	90000000000
+4	400000	2202.61	79999800000	160000000000
+5	500000	3420.92	124999750000	250000000000
+6	600000	4707.439621936	179999700000	360000000000
+7	700000	5691.605731614	244999650000	490000000000
+8	800000	5740.849060649	319999600000	640000000000
+9	900000	6997.59868739	404999550000	810000000000
+10	1000000	8976.646058231	499999500000	1000000000000
+</data>
+</table>
+<table>
+subvetor	11	4	06/11/18 18:45
+geometry	980	643	445	379	minimized	
+header	Tamanho da entrada[X]	Tempo (s)[Y]	Análise empírica[Y]	Análise assintótica[Y]
+ColWidth	100	100	100	100	
+<com>
+</com>
+ColType	0;0/13	0;0/13	0;0/13	0;0/13
+ReadOnlyColumn	0	0	0	0
+HiddenColumn	0	0	0	0
+Comments					
+WindowLabel		2
+<data>
+0	10000	0.156188	133616	132877
+1	100000	7.40813	1668928	1660964
+2	200000	37.8804	3537856	3521928
+3	300000	112.155	5475712	5458380
+4	400000	232.165	7475712	7443856
+5	500000	318.474	9475712	9465784
+6	600000	565.309	11551424	11516761
+7	700000	733.219	13651424	13591896
+8	800000	896.516	15751424	15687712
+9	900000	1080.71	17851424	17801608
+10	1000000	1452.28	19951424	19931568
+</data>
+</table>
+<table>
+binary	11	4	06/11/18 20:24
+geometry	0	643	445	379	minimized	
+header	Tamanho da entrada[X]	Tempo (s)[Y]	Análise empírica[Y]	Análise assintótica[Y]
+ColWidth	100	100	100	166	
+<com>
+</com>
+ColType	0;0/13	0;0/13	0;0/13	0;0/13
+ReadOnlyColumn	0	0	0	0
+HiddenColumn	0	0	0	0
+Comments					
+WindowLabel		2
+<data>
+0	10000	0.000238	13	13.28771237955
+1	100000	0.004437	17	16.60964047444
+2	200000	0.005752	11	17.60964047444
+3	300000	0.006632	11	18.19460297516
+4	400000	0.008105	11	18.60964047444
+5	500000	0.013052	11	18.93156856932
+6	600000	0.015319	11	19.19460297516
+7	700000	0.014701	11	19.41699539649
+8	800000	0.01798	11	19.60964047444
+9	900000	0.033004	20	19.77956547588
+10	1000000	0.036829	20	19.93156856932
+</data>
+</table>
+<multiLayer>
+heap_graph	1	1	06/11/18 21:41
+geometry	1372	643	490	426	minimized	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	5	5	472	363
+<PageGeometry>0.0103734	0.0132275	0.979253	0.960317</PageGeometry>
+PlotTitle		#000000	4228
+<Antialiasing>1</Antialiasing>
+<Autoscaling>1</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	0	1	0	1	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	1
+EnabledAxes	1	0	1	0	
+AxesTitles	Número de elementos	Número de instruções		%(?Y)	
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	4	5124	4
+AxesTitleDistance	2	-1	2	-1
+InvertedTitle	0	0	0	0
+TitleFont	Noto Sans	12	75	0	0	0
+ScaleFont0	Noto Sans	10	75	0	0	0
+ScaleFont1	Noto Sans	10	75	0	0	0
+ScaleFont2	Noto Sans	10	75	0	0	0
+ScaleFont3	Noto Sans	10	75	0	0	0
+AxisFont0	Noto Sans	10	50	0	0	0
+AxisFont1	Noto Sans	10	50	0	0	0
+AxisFont2	Noto Sans	10	50	0	0	0
+AxisFont3	Noto Sans	10	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#292f34	#292f34	#292f34	#292f34
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	heap_Tamanho da entrada	heap_Análise matemática	7	5	#000000	1	1	5	0	#000000	#000000	0	#000000	14	2	0	0	10	1
+curve	heap_Tamanho da entrada	heap_Análise Empírica	7	5	#ff0000	0	1	5	0	#ff0000	#ff0000	0	#000000	14	2	0	0	10	1
+scale	0	0	25000000	0	6	5	0	0
+scale	1	0	25000000	0	6	5	0	0
+scale	2	0	1000000	0	6	5	0	0
+scale	3	0	1000000	0	6	5	0	0
+LabelsFormat	4	0	0	6	4	0	0	6
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>30075.187969925</x>
+<y>23996655.518395</y>
+<right>280927.835051546</right>
+<bottom>21694915.2542373</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+\l(1)nlog(n)
+\l(2)%(2)
+</Text>
+<Font>Noto Sans	10	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>255</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<multiLayer>
+insertion_graph	1	1	06/11/18 22:27
+geometry	92	154	490	426	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	5	5	472	363
+<PageGeometry>0.0103734	0.0132275	0.979253	0.960317</PageGeometry>
+PlotTitle		#000000	4228
+<Antialiasing>1</Antialiasing>
+<Autoscaling>1</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	0	1	0	1	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	1
+EnabledAxes	1	0	1	0	
+AxesTitles	Número de elementos	Número de instruções		%(?Y)	
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	4	5124	4
+AxesTitleDistance	2	-1	2	-1
+InvertedTitle	0	0	0	0
+TitleFont	Noto Sans	12	75	0	0	0
+ScaleFont0	Noto Sans	10	75	0	0	0
+ScaleFont1	Noto Sans	10	75	0	0	0
+ScaleFont2	Noto Sans	10	75	0	0	0
+ScaleFont3	Noto Sans	10	75	0	0	0
+AxisFont0	Noto Sans	10	50	0	0	0
+AxisFont1	Noto Sans	10	50	0	0	0
+AxisFont2	Noto Sans	10	50	0	0	0
+AxisFont3	Noto Sans	10	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#292f34	#292f34	#292f34	#292f34
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	insertion_Tamanho da entrada	insertion_Análise assintótica	7	5	#000000	1	1	7	0	#000000	#000000	0	#000000	14	2	0	0	10	1
+curve	insertion_Tamanho da entrada	insertion_Análise Empírica	7	5	#ff0000	0	1	7	0	#ff0000	#ff0000	0	#000000	14	2	0	0	10	1
+scale	0	0	25000000	0	6	5	0	0
+scale	1	0	25000000	0	6	5	0	0
+scale	2	0	1000000	0	6	5	0	0
+scale	3	0	1000000	0	6	5	0	0
+LabelsFormat	4	0	0	6	4	0	0	6
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>30075.187969925</x>
+<y>23996655.518395</y>
+<right>280927.835051546</right>
+<bottom>21694915.2542373</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+\l(1)nlog(n)
+\l(2)%(2)
+</Text>
+<Font>Noto Sans	10	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>255</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<multiLayer>
+merge_graph	1	1	06/11/18 22:53
+geometry	686	110	490	426	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	5	5	472	363
+<PageGeometry>0.0103734	0.0132275	0.979253	0.960317</PageGeometry>
+PlotTitle		#000000	4228
+<Antialiasing>1</Antialiasing>
+<Autoscaling>1</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	0	1	0	1	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	1
+EnabledAxes	1	0	1	0	
+AxesTitles	Número de elementos	Número de instruções		%(?Y)	
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	4	5124	4
+AxesTitleDistance	2	-1	2	-1
+InvertedTitle	0	0	0	0
+TitleFont	Noto Sans	12	75	0	0	0
+ScaleFont0	Noto Sans	10	75	0	0	0
+ScaleFont1	Noto Sans	10	75	0	0	0
+ScaleFont2	Noto Sans	10	75	0	0	0
+ScaleFont3	Noto Sans	10	75	0	0	0
+AxisFont0	Noto Sans	10	50	0	0	0
+AxisFont1	Noto Sans	10	50	0	0	0
+AxisFont2	Noto Sans	10	50	0	0	0
+AxisFont3	Noto Sans	10	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#292f34	#292f34	#292f34	#292f34
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	merge_Tamanho da entrada	merge_Análise assintótica	7	5	#000000	1	1	7	0	#000000	#000000	0	#000000	14	2	0	0	10	1
+curve	merge_Tamanho da entrada	merge_Análise empírica	7	5	#ff0000	0	1	7	0	#ff0000	#ff0000	0	#000000	14	2	0	0	10	1
+scale	0	0	25000000	0	6	5	0	0
+scale	1	0	25000000	0	6	5	0	0
+scale	2	0	1000000	0	6	5	0	0
+scale	3	0	1000000	0	6	5	0	0
+LabelsFormat	4	0	0	6	4	0	0	6
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>30075.187969925</x>
+<y>23996655.518395</y>
+<right>280927.835051546</right>
+<bottom>21694915.2542373</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+\l(1)nlog(n)
+\l(2)%(2)
+</Text>
+<Font>Noto Sans	10	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>255</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<multiLayer>
+quick_graph	1	1	06/11/18 23:00
+geometry	588	643	513	426	minimized	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	5	5	472	363
+<PageGeometry>0.00990099	0.0132275	0.934653	0.960317</PageGeometry>
+PlotTitle		#000000	4228
+<Antialiasing>1</Antialiasing>
+<Autoscaling>1</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	0	1	0	1	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	1
+EnabledAxes	1	0	1	0	
+AxesTitles	Número de elementos	Número de instruções		%(?Y)	
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	4	5124	4
+AxesTitleDistance	2	-1	2	-1
+InvertedTitle	0	0	0	0
+TitleFont	Noto Sans	12	75	0	0	0
+ScaleFont0	Noto Sans	10	75	0	0	0
+ScaleFont1	Noto Sans	10	75	0	0	0
+ScaleFont2	Noto Sans	10	75	0	0	0
+ScaleFont3	Noto Sans	10	75	0	0	0
+AxisFont0	Noto Sans	10	50	0	0	0
+AxisFont1	Noto Sans	10	50	0	0	0
+AxisFont2	Noto Sans	10	50	0	0	0
+AxisFont3	Noto Sans	10	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#292f34	#292f34	#292f34	#292f34
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	quick_Tamanho da entrada	quick_Análise assintótica	7	5	#000000	1	1	7	0	#000000	#000000	0	#000000	14	2	0	0	10	1
+curve	quick_Tamanho da entrada	quick_Análise empírica	7	5	#ff0000	0	1	7	0	#ff0000	#ff0000	0	#000000	14	2	0	0	10	1
+scale	0	0	25000000	0	6	5	0	0
+scale	1	0	25000000	0	6	5	0	0
+scale	2	0	1000000	0	6	5	0	0
+scale	3	0	1000000	0	6	5	0	0
+LabelsFormat	4	0	0	6	4	0	0	6
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>528822.05513784</x>
+<y>4431438.1270903</y>
+<right>280927.835051546</right>
+<bottom>21694915.2542373</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+\l(1)nlog(n)
+\l(2)%(2)
+</Text>
+<Font>Noto Sans	10	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>255</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<multiLayer>
+binary_graph	1	1	06/11/18 23:16
+geometry	196	643	478	426	minimized	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	5	5	460	363
+<PageGeometry>0.0106383	0.0132275	0.978723	0.960317</PageGeometry>
+PlotTitle		#000000	4228
+<Antialiasing>1</Antialiasing>
+<Autoscaling>1</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	0	1	0	1	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	1
+EnabledAxes	1	0	1	0	
+AxesTitles	Número de elementos	Número de instruções		%(?Y)	
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	4	5124	4
+AxesTitleDistance	2	-1	2	-1
+InvertedTitle	0	0	0	0
+TitleFont	Noto Sans	12	75	0	0	0
+ScaleFont0	Noto Sans	10	75	0	0	0
+ScaleFont1	Noto Sans	10	75	0	0	0
+ScaleFont2	Noto Sans	10	75	0	0	0
+ScaleFont3	Noto Sans	10	75	0	0	0
+AxisFont0	Noto Sans	10	50	0	0	0
+AxisFont1	Noto Sans	10	50	0	0	0
+AxisFont2	Noto Sans	10	50	0	0	0
+AxisFont3	Noto Sans	10	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#292f34	#292f34	#292f34	#292f34
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	binary_Tamanho da entrada	binary_Análise assintótica	7	5	#000000	1	1	7	0	#000000	#000000	0	#000000	14	2	0	0	10	1
+curve	binary_Tamanho da entrada	binary_Análise empírica	7	5	#ff0000	0	1	7	0	#ff0000	#ff0000	0	#000000	14	2	0	0	10	1
+scale	0	10	22	0	7	5	0	0
+scale	1	10	22	0	7	5	0	0
+scale	2	0	1000000	0	6	5	0	0
+scale	3	0	1000000	0	6	5	0	0
+LabelsFormat	4	0	0	6	4	0	0	6
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>30075.187969925</x>
+<y>21.598662207358</y>
+<right>289893.617021277</right>
+<bottom>20.4135593220339</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+\l(1)log(n)
+\l(2)%(2)
+</Text>
+<Font>Noto Sans	10	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>255</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<multiLayer>
+bubble_optimized_graph	1	1	07/11/18 02:03
+geometry	784	643	495	426	minimized	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	5	5	477	363
+<PageGeometry>0.0102669	0.0132275	0.979466	0.960317</PageGeometry>
+PlotTitle		#000000	4228
+<Antialiasing>1</Antialiasing>
+<Autoscaling>1</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	0	1	0	1	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	1
+EnabledAxes	1	0	1	0	
+AxesTitles	Número de elementos	Número de instruções		%(?Y)	
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	4	5124	4
+AxesTitleDistance	2	-1	2	-1
+InvertedTitle	0	0	0	0
+TitleFont	Noto Sans	12	75	0	0	0
+ScaleFont0	Noto Sans	10	75	0	0	0
+ScaleFont1	Noto Sans	10	75	0	0	0
+ScaleFont2	Noto Sans	10	75	0	0	0
+ScaleFont3	Noto Sans	10	75	0	0	0
+AxisFont0	Noto Sans	10	50	0	0	0
+AxisFont1	Noto Sans	10	50	0	0	0
+AxisFont2	Noto Sans	10	50	0	0	0
+AxisFont3	Noto Sans	10	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#292f34	#292f34	#292f34	#292f34
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	bubble_optimized_Tamanho da entrada	bubble_optimized_Análise assintótica	7	5	#000000	1	1	7	0	#000000	#000000	0	#000000	14	2	0	0	10	1
+curve	bubble_optimized_Tamanho da entrada	bubble_optimized_Análise empírica	7	5	#ff0000	0	1	7	0	#ff0000	#ff0000	0	#000000	14	2	0	0	10	1
+scale	0	0	1000000000000	0	6	5	0	0
+scale	1	0	1000000000000	0	6	5	0	0
+scale	2	0	1000000	0	6	5	0	0
+scale	3	0	1000000	0	6	5	0	0
+LabelsFormat	4	0	0	6	4	0	0	6
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>27568.922305764</x>
+<y>966555183946.49</y>
+<right>277353.68956743</right>
+<bottom>867796610169.492</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+\l(1)n<sup>2</sup>
+\l(2)%(2)
+</Text>
+<Font>Noto Sans	10	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>255</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<multiLayer>
+selection_graph	1	1	07/11/18 02:50
+geometry	392	643	495	426	minimized	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	5	5	477	363
+<PageGeometry>0.0102669	0.0132275	0.979466	0.960317</PageGeometry>
+PlotTitle		#000000	4228
+<Antialiasing>1</Antialiasing>
+<Autoscaling>1</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	0	1	0	1	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	1
+EnabledAxes	1	0	1	0	
+AxesTitles	Número de elementos	Número de instruções		%(?Y)	
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	4	5124	4
+AxesTitleDistance	2	-1	2	-1
+InvertedTitle	0	0	0	0
+TitleFont	Noto Sans	12	75	0	0	0
+ScaleFont0	Noto Sans	10	75	0	0	0
+ScaleFont1	Noto Sans	10	75	0	0	0
+ScaleFont2	Noto Sans	10	75	0	0	0
+ScaleFont3	Noto Sans	10	75	0	0	0
+AxisFont0	Noto Sans	10	50	0	0	0
+AxisFont1	Noto Sans	10	50	0	0	0
+AxisFont2	Noto Sans	10	50	0	0	0
+AxisFont3	Noto Sans	10	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#292f34	#292f34	#292f34	#292f34
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	selection_Tamanho da entrada	selection_Análise assintótica	7	5	#000000	1	1	7	0	#000000	#000000	0	#000000	14	2	0	0	10	1
+curve	selection_Tamanho da entrada	selection_Análise empírica	7	5	#ff0000	0	1	7	0	#ff0000	#ff0000	0	#000000	14	2	0	0	10	1
+scale	0	0	1000000000000	0	6	5	0	0
+scale	1	0	1000000000000	0	6	5	0	0
+scale	2	0	1000000	0	6	5	0	0
+scale	3	0	1000000	0	6	5	0	0
+LabelsFormat	4	0	0	6	4	0	0	6
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>30075.187969925</x>
+<y>963210702341.14</y>
+<right>277353.68956743</right>
+<bottom>867796610169.492</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+\l(1)n<sup>2</sup>
+\l(2)%(2)
+</Text>
+<Font>Noto Sans	10	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>255</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<multiLayer>
+bubble_graph	1	1	20/11/18 17:42
+geometry	541	8	495	426	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	5	5	477	363
+<PageGeometry>0.0102669	0.0132275	0.979466	0.960317</PageGeometry>
+PlotTitle		#000000	4228
+<Antialiasing>1</Antialiasing>
+<Autoscaling>1</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	0	1	0	1	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	1
+EnabledAxes	1	0	1	0	
+AxesTitles	Número de elemenos	Número de instruções		%(?Y)	
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	4	5124	4
+AxesTitleDistance	2	-1	2	-1
+InvertedTitle	0	0	0	0
+TitleFont	Noto Sans	12	75	0	0	0
+ScaleFont0	Noto Sans	10	75	0	0	0
+ScaleFont1	Noto Sans	10	75	0	0	0
+ScaleFont2	Noto Sans	10	75	0	0	0
+ScaleFont3	Noto Sans	10	75	0	0	0
+AxisFont0	Noto Sans	10	50	0	0	0
+AxisFont1	Noto Sans	10	50	0	0	0
+AxisFont2	Noto Sans	10	50	0	0	0
+AxisFont3	Noto Sans	10	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#292f34	#292f34	#292f34	#292f34
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	bubble_Tamanho da entrada	bubble_Análise assintótica	7	5	#000000	1	1	7	0	#000000	#000000	0	#000000	14	2	0	0	20	1
+curve	bubble_Tamanho da entrada	bubble_Análise empírica	7	5	#ff0000	0	1	7	0	#ff0000	#ff0000	0	#000000	14	2	0	0	20	1
+scale	0	0	1000000000000	0	6	5	0	0
+scale	1	0	1000000000000	0	6	5	0	0
+scale	2	0	1000000	0	6	5	0	0
+scale	3	0	1000000	0	6	5	0	0
+LabelsFormat	4	0	0	6	4	0	0	6
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>27568.922305764</x>
+<y>959866220735.79</y>
+<right>451127.819548872</right>
+<bottom>795986622073.579</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+\l(1)n<sup>2</sup>
+\l(2)%(2)
+</Text>
+<Font>Noto Sans	10	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>255</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<multiLayer>
+subvetor_graph	1	1	20/11/18 17:59
+geometry	1176	643	490	426	minimized	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	5	5	472	363
+<PageGeometry>0.0103734	0.0132275	0.979253	0.960317</PageGeometry>
+PlotTitle		#000000	4228
+<Antialiasing>1</Antialiasing>
+<Autoscaling>1</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	0	1	0	1	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	1
+EnabledAxes	1	0	1	0	
+AxesTitles	Número de elementos	Número de instruções		%(?Y)	
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	4	5124	4
+AxesTitleDistance	2	-1	2	-1
+InvertedTitle	0	0	0	0
+TitleFont	Noto Sans	12	75	0	0	0
+ScaleFont0	Noto Sans	10	75	0	0	0
+ScaleFont1	Noto Sans	10	75	0	0	0
+ScaleFont2	Noto Sans	10	75	0	0	0
+ScaleFont3	Noto Sans	10	75	0	0	0
+AxisFont0	Noto Sans	10	50	0	0	0
+AxisFont1	Noto Sans	10	50	0	0	0
+AxisFont2	Noto Sans	10	50	0	0	0
+AxisFont3	Noto Sans	10	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#292f34	#292f34	#292f34	#292f34
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	subvetor_Tamanho da entrada	subvetor_Análise assintótica	7	5	#000000	1	1	7	0	#000000	#000000	0	#000000	14	2	0	0	10	1
+curve	subvetor_Tamanho da entrada	subvetor_Análise empírica	7	5	#ff0000	0	1	7	0	#ff0000	#ff0000	0	#000000	14	2	0	0	10	1
+scale	0	0	25000000	0	6	5	0	0
+scale	1	0	25000000	0	6	5	0	0
+scale	2	0	1000000	0	6	5	0	0
+scale	3	0	1000000	0	6	5	0	0
+LabelsFormat	4	0	0	6	4	0	0	6
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>30075.187969925</x>
+<y>23996655.518395</y>
+<right>327819.54887218</right>
+<bottom>21086956.5217391</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+\l(1)nlog(n)
+\l(2)%(2)
+</Text>
+<Font>Noto Sans	10	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>255</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<table>
+eficientes	30	2	20/11/18 18:11
+geometry	1176	0	512	501	
+header	1[X]	2[Y]
+ColWidth	100	100	
+<com>
+</com>
+ColType	1;0/13	0;0/13
+ReadOnlyColumn	0	0
+HiddenColumn	0	0
+Comments			
+WindowLabel		2
+<data>
+0	Heap Sort	1.9632
+1	Merge Sort	0.725371
+2	Quick Sort	12.5233
+3	Insertion Sort	2.15379
+</data>
+</table>
+<multiLayer>
+eficientes_graph	1	1	20/11/18 18:15
+geometry	67	128	469	452	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	5	5	451	389
+<PageGeometry>0.010846	0.0123762	0.978308	0.962871</PageGeometry>
+PlotTitle		#000000	4228
+<Antialiasing>1</Antialiasing>
+<Autoscaling>1</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	0	0	0	1	#0000ff	1	2.3	#a0a0a4	2	0.4	#000000	0	0.5	#a0a0a4	2	0.4	0	0	2	0	1
+EnabledAxes	1	0	1	0	
+AxesTitles		Tempo (s)		%(?Y)	
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	4	5124	4
+AxesTitleDistance	2	-1	2	-1
+InvertedTitle	0	0	0	0
+TitleFont	Noto Sans	12	75	0	0	0
+ScaleFont0	Noto Sans	10	75	0	0	0
+ScaleFont1	Noto Sans	10	75	0	0	0
+ScaleFont2	Noto Sans	10	75	0	0	0
+ScaleFont3	Noto Sans	10	75	0	0	0
+AxisFont0	Noto Sans	10	50	0	0	0
+AxisFont1	Noto Sans	10	50	0	0	0
+AxisFont2	Noto Sans	10	50	0	0	0
+AxisFont3	Noto Sans	10	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#292f34	#292f34	#292f34	#292f34
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	eficientes_1	eficientes_2	3	1	#ffffff	0	1	7	0	#000000	#000000	1	#808080	0	20	0	2	0	0	29	1
+scale	0	0	13	0	8	5	0	0
+scale	1	0	13	0	8	5	0	0
+scale	2	0	5	0	6	5	0	0
+scale	3	0	5	0	6	5	0	0
+LabelsFormat	0	6	0	6	0	6	0	6
+AxisType	0	0	1;Table1_1	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	-45	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<table>
+Table1	30	2	20/11/18 18:27
+geometry	1446	157	445	224	
+header	1[X]	2[Y]
+ColWidth	100	134	
+<com>
+</com>
+ColType	1;0/13	0;0/13
+ReadOnlyColumn	0	0
+HiddenColumn	0	0
+Comments			
+WindowLabel		2
+<data>
+0	Bubble Sort	40958.32254794
+1	Bubble Sort otimizado	30845.03513004
+2	Selection Sort	8976.646058231
+</data>
+</table>
+<multiLayer>
+Graph1	1	1	20/11/18 18:35
+geometry	889	24	477	490	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	5	5	459	427
+<PageGeometry>0.010661	0.0113122	0.978678	0.966063</PageGeometry>
+PlotTitle		#000000	4228
+<Antialiasing>1</Antialiasing>
+<Autoscaling>1</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	0	0	0	1	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	1
+EnabledAxes	1	0	1	0	
+AxesTitles		Tempo (s)		%(?Y)	
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	4	5124	4
+AxesTitleDistance	2	-1	2	-1
+InvertedTitle	0	0	0	0
+TitleFont	Noto Sans	12	75	0	0	0
+ScaleFont0	Noto Sans	10	75	0	0	0
+ScaleFont1	Noto Sans	10	75	0	0	0
+ScaleFont2	Noto Sans	10	75	0	0	0
+ScaleFont3	Noto Sans	10	75	0	0	0
+AxisFont0	Noto Sans	10	50	0	0	0
+AxisFont1	Noto Sans	10	50	0	0	0
+AxisFont2	Noto Sans	10	50	0	0	0
+AxisFont3	Noto Sans	10	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#292f34	#292f34	#292f34	#292f34
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	Table1_1	Table1_2	3	1	#ffffff	0	1	7	0	#000000	#000000	1	#808080	0	20	0	2	0	0	29	1
+scale	0	0	42000	0	10	5	0	0
+scale	1	0	42000	0	10	5	0	0
+scale	2	0	4	0	9	5	0	0
+scale	3	0	4	0	9	5	0	0
+LabelsFormat	4	0	0	6	0	6	0	6
+AxisType	0	0	1;Table1_1	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	-45	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<open>1</open>
